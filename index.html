@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Totem</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="startScreen" onclick="iniciar()">
+  <h1>🍰 Toque para começar</h1>
+</div>
+
+<div id="app" class="hidden">
+
+  <header>
+    <h1>Solange Doceria</h1>
+  </header>
+
+  <main>
+    <div id="menu"></div>
+
+    <div id="cartArea">
+      <h2>Carrinho</h2>
+      <div id="cart"></div>
+      <h3 id="total">R$ 0</h3>
+      <button onclick="finalizarPedido()">Finalizar</button>
+    </div>
+  </main>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
