@@ -11,7 +11,7 @@ const produtos = [
   },
   {
     nome: "Copo Gran Splendore(Dubai)",
-    preco: 20.90,
+    preco: 21,
     imagem: "imagens/gran_dubai.jpg"
   },
   {
