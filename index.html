@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Totem - Solange Doceria</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="logo">
+    <img src="imagens/logo.jpg" alt="Logo">
+  </div>
+
+  <div class="title">
+    <h1>Solange Alves Doceria Fina</h1>
+    <p>Aberto de Terça a Domingo</p>
+  </div>
+
+  <div class="icons">
+    <div id="cartIcon" onclick="toggleCarrinho()">
+      🛒 <span id="cartCount">0</span>
+    </div>
+  </div>
+</header>
+
+<section class="produtos-header">
+  <span>- Produtos -</span>
+</section>
+
+<main class="container">
+  <div id="menu" class="menu"></div>
+</main>
+
+<!-- CARRINHO -->
+<div id="cartArea">
+  <h2>Carrinho</h2>
+  <div id="cart"></div>
+  <h3 id="total">R$ 0</h3>
+  <button onclick="finalizarPedido()">Finalizar Pedido</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
